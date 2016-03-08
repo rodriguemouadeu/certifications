@@ -12,6 +12,8 @@ public class CourseBook extends Book {
 	
 			issueHistory();
 			
+			countPages();
+		
 		}
 
 }

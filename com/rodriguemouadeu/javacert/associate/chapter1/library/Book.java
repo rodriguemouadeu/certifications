@@ -12,9 +12,14 @@ class Book{
 
 	protected void modifyTemplate(){
 		System.out.println("mofifyTeplate() called ...");
+		countPages();
 	}
 
 	void issueHistory(){
+	}
+
+	private int countPages(){
+		System.out.println("countPages() called ...");
 	}
 
 }
