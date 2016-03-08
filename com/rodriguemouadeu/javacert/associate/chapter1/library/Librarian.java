@@ -10,6 +10,10 @@ public class Librarian {
 
                         book.modifyTemplate();
 
+			int c = book.issueCount;
+
+			book.issueHistory();
+
                 }
 
 }

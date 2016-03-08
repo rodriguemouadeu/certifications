@@ -1,11 +1,15 @@
 package com.rodriguemouadeu.javacert.associate.chapter1.building;
 
+import com.rodriguemouadeu.javacert.associate.chapter1.library.Book;
+
 public class House{
 
 	public  House(){
 	
-		StoryBook book = new StoryBook();
-		book.printStoryBook();
+		Book book = new Book();
+		book.author =  "DEF";
+		book.modifyTemplate();
+ 
 	}
 
 }

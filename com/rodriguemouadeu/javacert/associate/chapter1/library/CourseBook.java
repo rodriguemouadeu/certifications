@@ -8,6 +8,10 @@ public class CourseBook extends Book {
 
 			modifyTemplate();
 			
+			int c = issueCount;
+	
+			issueHistory();
+			
 		}
 
 }
