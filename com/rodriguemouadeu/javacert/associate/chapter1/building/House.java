@@ -7,8 +7,8 @@ public class House{
 	public  House(){
 	
 		Book book = new Book();
-		book.author =  "DEF";
-		book.modifyTemplate();
+		int c = book.issueCount;
+		book.issueHistory();
  
 	}
 
