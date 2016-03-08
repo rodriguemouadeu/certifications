@@ -1,6 +1,6 @@
 package com.rodriguemouadeu.javacert.associate.chapter1.library;
 
-public class Book{
+class Book{
 
 	public String isbn = "0123456789";
 	protected String author = "Bob Gratton";
