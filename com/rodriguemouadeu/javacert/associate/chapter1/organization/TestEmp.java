@@ -10,15 +10,15 @@ public class TestEmp{
 		emp1.bankVault = 10;
 		Emp emp2 = new Emp();
 
-		System.out.println(emp1.bankVault);
-		System.out.println(emp2.bankVault);
-		System.out.println(Emp.bankVault);		
+		System.out.println(emp1.getBankVaultValue());
+		System.out.println(emp2.getBankVaultValue());
+		System.out.println(Emp.getBankVaultValue());		
 
 		emp2.bankVault = 20;
 		System.out.println("After emp2 was modified ...");
-		System.out.println(emp1.bankVault);
-		System.out.println(emp2.bankVault);
-		System.out.println(Emp.bankVault);
+		System.out.println(emp1.getBankVaultValue());
+		System.out.println(emp2.getBankVaultValue());
+		System.out.println(Emp.getBankVaultValue());
 	
 	}	
 
