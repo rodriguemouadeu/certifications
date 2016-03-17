@@ -1,5 +1,4 @@
-
-package com.rodriguemouadeu.javacert.associate.chapter2.twistintale;
+package com.rodriguemouadeu.javacert.associate.twistintale;
 
 public class TwistInTale_2_1_a {
 
