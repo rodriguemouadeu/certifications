@@ -13,14 +13,14 @@ class Office {
 		manager.attendTraining(trainingSchedules);
 		manager.conductInterview();
 		
-		HRExecutive hrExecutive = new HRExecutive();
-		hrExecutive.specializations = new String[]{"Staffing"}; 
-		System.out.println(hrExecutive.specializations[0]);
+		Employee emp = new HRExecutive();
+		emp.specializations = new String[]{"Staffing"}; 
+		System.out.println(emp.specializations[0]);
 
-		hrExecutive.name = "Pavni Gupta";		
-		System.out.println(hrExecutive.name);
+		emp.name = "Pavni Gupta";		
+		System.out.println(emp.name);
 		
-		hrExecutive.conductInterview();
+		emp.conductInterview();
 
 	}
 
