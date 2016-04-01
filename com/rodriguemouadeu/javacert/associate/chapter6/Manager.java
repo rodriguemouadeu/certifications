@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 class Manager extends Employee implements Trainable, Interviewer {
 
+	int teamSize;
 
 	String getName(){
 		return name;
