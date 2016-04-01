@@ -20,5 +20,20 @@ class Manager extends Employee implements Trainable, Interviewer {
 		System.out.println("Mgr - conductInterview");
 	}
 	
+	public void startProjectWork(){
+		meetWithCustomer();
+		defineProjectSchedule();
+		assignRespToTeam();
+	}
+
+	private void meetWithCustomer(){
+		System.out.println("meet with customer");
+	}
+	private void defineProjectSchedule(){
+		System.out.println("define project schedule");
+	}
+	private void assignRespToTeam(){
+		System.out.println("team work starts");
+	}
 
 }

@@ -4,7 +4,11 @@ import java.util.Arrays;
 
 class Programmer extends Employee implements Trainable {
 
-	 Programmer(String val) {
+	 
+	Programmer() {
+	}
+
+	Programmer(String val) {
 		name = val;
 	 }
 
@@ -17,4 +21,19 @@ class Programmer extends Employee implements Trainable {
 			+ (trainingSchedules != null 
 				? Arrays.toString(trainingSchedules) : "No training"));
 	}
+
+
+	public void startProjectWork(){
+		defineClasses();
+		unitTestCode();
+	}
+
+	private void defineClasses(){
+		System.out.println("define classes");
+	}
+	
+	private void unitTestCode(){
+		System.out.println("unit test code");
+	}
+
 }
