@@ -2,7 +2,7 @@ package com.rodriguemouadeu.javacert.associate.chapter6;
 
 import java.util.Arrays;
 
-class Programmer extends Employee implements Trainable {
+class Programmer extends Employee implements Trainable, MobileAppExpert {
 
 	String name = "Programmer"; 
 	
@@ -38,6 +38,10 @@ class Programmer extends Employee implements Trainable {
 	
 	private void unitTestCode(){
 		System.out.println("unit test code");
+	}
+
+	public void deliverMobileApp(){
+		System.out.println("testing complete on real device");
 	}
 
 }

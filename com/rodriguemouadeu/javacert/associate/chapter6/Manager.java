@@ -2,7 +2,7 @@ package com.rodriguemouadeu.javacert.associate.chapter6;
 
 import java.util.Arrays;
 
-class Manager extends Employee implements Trainable, Interviewer {
+class Manager extends Employee implements Trainable, Interviewer, MobileAppExpert {
 
 	int teamSize;
 
@@ -29,11 +29,18 @@ class Manager extends Employee implements Trainable, Interviewer {
 	private void meetWithCustomer(){
 		System.out.println("meet with customer");
 	}
+
 	private void defineProjectSchedule(){
 		System.out.println("define project schedule");
 	}
+
 	private void assignRespToTeam(){
 		System.out.println("team work starts");
+	}
+
+	public void deliverMobileApp(){
+		System.out.println("QA complete");
+		System.out.println("code delivered with release notes");
 	}
 
 }
