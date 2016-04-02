@@ -1,8 +1,8 @@
 package com.rodriguemouadeu.javacert.associate.chapter6;
 
-abstract class Employee {
+class Employee {
 
- 	String name;
+ 	String name = "Employee";
 	String address;
 	protected String phoneNumber;
 	public float experience;
@@ -13,6 +13,10 @@ abstract class Employee {
 
 	}
 	
-	public abstract void startProjectWork();
+	public void printName(){
+		System.out.println(name);
+	}
+
+	//public abstract void startProjectWork();
 	
 }
