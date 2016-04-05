@@ -1,6 +1,6 @@
 package com.rodriguemouadeu.javacert.associate.chapter7;
 
-class TestRiverRaftingExceptionNoException {
+class TestRiverRaftingNoException {
 
 	public static void main(String[] args){
 		
